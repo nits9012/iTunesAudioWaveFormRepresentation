@@ -1,6 +1,7 @@
 # iTunesAudioWaveFormRepresentation
 
-![alt tag](https://cloud.githubusercontent.com/assets/19264044/15393400/b0c00a3a-1dea-11e6-8b03-83e444cb6ce6.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/19264044/15393652/20e7c8ce-1dec-11e6-9b58-3a6dae456502.jpg)
+
 
 Click on Opne iTunes button
 
