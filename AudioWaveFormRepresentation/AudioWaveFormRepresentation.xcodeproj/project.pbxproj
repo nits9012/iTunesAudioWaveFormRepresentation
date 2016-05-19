@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190B68651CED942100795D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B68641CED942100795D68 /* AppDelegate.swift */; };
+		190B686A1CED942100795D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190B68681CED942100795D68 /* Main.storyboard */; };
+		190B686D1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 190B686B1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodeld */; };
+		190B686F1CED942100795D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190B686E1CED942100795D68 /* Assets.xcassets */; };
+		190B68721CED942100795D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190B68701CED942100795D68 /* LaunchScreen.storyboard */; };
+		190B68811CED952500795D68 /* SCScrollableWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 190B687D1CED952500795D68 /* SCScrollableWaveformView.m */; };
+		190B68821CED952500795D68 /* SCWaveformCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 190B687E1CED952500795D68 /* SCWaveformCache.m */; };
+		190B68831CED952500795D68 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 190B687F1CED952500795D68 /* SCWaveformView.m */; };
+		190B68851CED957300795D68 /* SCWaveScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B68841CED957300795D68 /* SCWaveScrollViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		190B68611CED942100795D68 /* AudioWaveFormRepresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioWaveFormRepresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190B68641CED942100795D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		190B68691CED942100795D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		190B686C1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioWaveFormRepresentation.xcdatamodel; sourceTree = "<group>"; };
+		190B686E1CED942100795D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190B68711CED942100795D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		190B68731CED942100795D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190B687A1CED952400795D68 /* AudioWaveFormRepresentation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioWaveFormRepresentation-Bridging-Header.h"; sourceTree = "<group>"; };
+		190B687B1CED952500795D68 /* SCWaveformCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformCache.h; sourceTree = "<group>"; };
+		190B687C1CED952500795D68 /* SCScrollableWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScrollableWaveformView.h; sourceTree = "<group>"; };
+		190B687D1CED952500795D68 /* SCScrollableWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCScrollableWaveformView.m; sourceTree = "<group>"; };
+		190B687E1CED952500795D68 /* SCWaveformCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformCache.m; sourceTree = "<group>"; };
+		190B687F1CED952500795D68 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformView.m; sourceTree = "<group>"; };
+		190B68801CED952500795D68 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformView.h; sourceTree = "<group>"; };
+		190B68841CED957300795D68 /* SCWaveScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCWaveScrollViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190B685E1CED942100795D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190B68581CED942000795D68 = {
+			isa = PBXGroup;
+			children = (
+				190B68631CED942100795D68 /* AudioWaveFormRepresentation */,
+				190B68621CED942100795D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190B68621CED942100795D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190B68611CED942100795D68 /* AudioWaveFormRepresentation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190B68631CED942100795D68 /* AudioWaveFormRepresentation */ = {
+			isa = PBXGroup;
+			children = (
+				190B68791CED950100795D68 /* SCWaveForm */,
+				190B68841CED957300795D68 /* SCWaveScrollViewController.swift */,
+				190B68641CED942100795D68 /* AppDelegate.swift */,
+				190B68681CED942100795D68 /* Main.storyboard */,
+				190B686E1CED942100795D68 /* Assets.xcassets */,
+				190B68701CED942100795D68 /* LaunchScreen.storyboard */,
+				190B68731CED942100795D68 /* Info.plist */,
+				190B686B1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodeld */,
+			);
+			path = AudioWaveFormRepresentation;
+			sourceTree = "<group>";
+		};
+		190B68791CED950100795D68 /* SCWaveForm */ = {
+			isa = PBXGroup;
+			children = (
+				190B687B1CED952500795D68 /* SCWaveformCache.h */,
+				190B687C1CED952500795D68 /* SCScrollableWaveformView.h */,
+				190B687D1CED952500795D68 /* SCScrollableWaveformView.m */,
+				190B687E1CED952500795D68 /* SCWaveformCache.m */,
+				190B687F1CED952500795D68 /* SCWaveformView.m */,
+				190B68801CED952500795D68 /* SCWaveformView.h */,
+				190B687A1CED952400795D68 /* AudioWaveFormRepresentation-Bridging-Header.h */,
+			);
+			name = SCWaveForm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190B68601CED942100795D68 /* AudioWaveFormRepresentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190B68761CED942100795D68 /* Build configuration list for PBXNativeTarget "AudioWaveFormRepresentation" */;
+			buildPhases = (
+				190B685D1CED942100795D68 /* Sources */,
+				190B685E1CED942100795D68 /* Frameworks */,
+				190B685F1CED942100795D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioWaveFormRepresentation;
+			productName = AudioWaveFormRepresentation;
+			productReference = 190B68611CED942100795D68 /* AudioWaveFormRepresentation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190B68591CED942100795D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = oodles;
+				TargetAttributes = {
+					190B68601CED942100795D68 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 190B685C1CED942100795D68 /* Build configuration list for PBXProject "AudioWaveFormRepresentation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190B68581CED942000795D68;
+			productRefGroup = 190B68621CED942100795D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190B68601CED942100795D68 /* AudioWaveFormRepresentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190B685F1CED942100795D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190B68721CED942100795D68 /* LaunchScreen.storyboard in Resources */,
+				190B686F1CED942100795D68 /* Assets.xcassets in Resources */,
+				190B686A1CED942100795D68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190B685D1CED942100795D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190B68811CED952500795D68 /* SCScrollableWaveformView.m in Sources */,
+				190B68851CED957300795D68 /* SCWaveScrollViewController.swift in Sources */,
+				190B68821CED952500795D68 /* SCWaveformCache.m in Sources */,
+				190B68831CED952500795D68 /* SCWaveformView.m in Sources */,
+				190B68651CED942100795D68 /* AppDelegate.swift in Sources */,
+				190B686D1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		190B68681CED942100795D68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190B68691CED942100795D68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		190B68701CED942100795D68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190B68711CED942100795D68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190B68741CED942100795D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		190B68751CED942100795D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190B68771CED942100795D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AudioWaveFormRepresentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioWaveFormRepresentation/AudioWaveFormRepresentation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		190B68781CED942100795D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AudioWaveFormRepresentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioWaveFormRepresentation/AudioWaveFormRepresentation-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190B685C1CED942100795D68 /* Build configuration list for PBXProject "AudioWaveFormRepresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190B68741CED942100795D68 /* Debug */,
+				190B68751CED942100795D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190B68761CED942100795D68 /* Build configuration list for PBXNativeTarget "AudioWaveFormRepresentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190B68771CED942100795D68 /* Debug */,
+				190B68781CED942100795D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		190B686B1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				190B686C1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodel */,
+			);
+			currentVersion = 190B686C1CED942100795D68 /* AudioWaveFormRepresentation.xcdatamodel */;
+			path = AudioWaveFormRepresentation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 190B68591CED942100795D68 /* Project object */;
+}
