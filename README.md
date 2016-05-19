@@ -4,7 +4,7 @@
 
 Click on Opne iTunes button
 
-![](https://cloud.githubusercontent.com/assets/19264044/15393402/b364d04a-1dea-11e6-90ca-7e22eca8f57d.jpg =100x20)
+![](https://cloud.githubusercontent.com/assets/19264044/15393402/b364d04a-1dea-11e6-90ca-7e22eca8f57d.jpg =100x100)
 
 Here is the wave form representation of Audio Song
 
